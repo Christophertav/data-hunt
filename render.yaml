@@ -5,9 +5,9 @@ services:
     buildCommand: bin/render-build.sh
     startCommand: bundle exec puma -C config/puma.rb
     envVars:
-      - key: SECRET_KEY_BASE
+      - key: secret_key_base
         generateValue: true
-      - key: DATABASE_URL
+      - key: url
         fromDatabase:
           name: data_hunt_production
           property: connectionString

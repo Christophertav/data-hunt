@@ -89,3 +89,5 @@ production:
   database: data_hunt_production
   username: data_hunt
   password: <%= ENV['DATA_HUNT_DATABASE_PASSWORD'] %>
+  url: postgres://gpcneoeynetnqw:a4f9bd8ea63a66fb2f70693c3c88dedf58b73288803676f0ef8486764ad276d7@ec2-34-248-169-69.eu-west-1.compute.amazonaws.com:5432/d8umc0230drah5
+  secret_key_base: 406c4ced97cdb2d37b2b27bef12ef98770f88b8db1b7d8fcd80fbaa5f2ac81a2bec363b02ff729f316a237bd27f254d44a497500bd3353dc3cf3783d7c23c5e4
