@@ -12,13 +12,7 @@
   gem 'activeadmin'
   gem 'activeadmin_addons'
 
-  gem 'autoprefixer-rails'
-  gem 'font-awesome-sass'
-  gem 'sassc-rails'
-  gem 'simple_form'
-  gem 'uglifier'
-  gem 'webpacker'
-  gem 'slim'
+  gem 'pundit'
 
   group :development do
     gem 'rails-erd'
